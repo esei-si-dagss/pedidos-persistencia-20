@@ -98,16 +98,16 @@ mkdir -p src/main/java/es/uvigo/mei/pedidos/entidades
 
 cd src/main/java/es/uvigo/mei/pedidos/entidades
 
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/Articulo.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/Almacen.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/ArticuloAlmacen.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/ArticuloAlmacenId.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/Familia.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/Direccion.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/Cliente.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/Pedido.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/LineaPedido.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/entidades/EstadoPedido.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/Articulo.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/Almacen.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/ArticuloAlmacen.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/ArticuloAlmacenId.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/Familia.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/Direccion.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/Cliente.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/Pedido.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/LineaPedido.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/entidades/EstadoPedido.java
 
 pushd
 ```
@@ -167,7 +167,7 @@ Contenido a incluir
 ### Añadir clases con "main()" de ejemplo
 ```
 cd src/main/java/es/uvigo/mei/pedidos/
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/master/src/main/java/es/uvigo/mei/pedidos/Main.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/Main.java
 pushd
 ```
 #### Aspectos a revisar
