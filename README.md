@@ -19,7 +19,8 @@ Ejemplo de mapeo JPA
 mysql -u root -p    [pedirá la contraseña de MySQL]
 
 mysql> create database pruebas_si;
-mysql> grant all privileges on pruebas_si.* to si@localhost identified by "si";
+mysql> create user si@localhost identified by "si";
+mysql> grant all privileges on pruebas_si.* to si@localhost;
 ```
 
 Adicionalmente, puede ser necesario establecer un formato de fecha compatible
