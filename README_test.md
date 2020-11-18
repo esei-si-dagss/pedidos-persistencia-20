@@ -13,18 +13,18 @@ Ejemplo de uso de JUnit5 para _testing_ simple del DAO JPA
 Crear el directorio para el paquete `daos` y copiar los ficheros Java con la definición de interfaces y clases de implementación.
 ```
 mkdir -p src/main/java/es/uvigo/mei/pedidos/daos
-cd src/main/java/es/uvigo/mei/pedidos/entidades
+cd src/main/java/es/uvigo/mei/pedidos/daos
 
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/GenericoDAO.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/GenericoDAOJPA.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/GenericoDAO.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/GenericoDAOJPA.java
 
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/ClienteDAO.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/ClienteDAOJPA.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/ClienteDAO.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/ClienteDAOJPA.java
 
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/PedidoDAO.java
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/PedidoDAOJPA.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/PedidoDAO.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/PedidoDAOJPA.java
 
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/PedidosException.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-20/main/src/main/java/es/uvigo/mei/pedidos/daos/PedidosException.java
 
 pushd
 ```
